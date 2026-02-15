@@ -1,0 +1,132 @@
+.page-hero {
+  position: relative;
+  height: 380px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding-top: 70px;
+}
+
+.page-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(48,44,40,0.55) 0%, rgba(48,44,40,0.8) 100%);
+}
+
+.page-hero-content {
+  position: relative;
+  z-index: 1;
+  padding-bottom: 48px;
+}
+
+.page-hero-content h1 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.page-hero-content p {
+  font-size: 1rem;
+  color: rgba(255,255,255,0.8);
+}
+
+.menu-content {
+  padding: 64px 0;
+  background-color: var(--light-background-color);
+}
+
+.menu-section {
+  margin-bottom: 56px;
+}
+
+.menu-section:last-child {
+  margin-bottom: 0;
+}
+
+.menu-section-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--light-border-color);
+}
+
+.menu-emoji {
+  font-size: 1.6rem;
+}
+
+.menu-section-header h2 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--dark-text-color);
+}
+
+.menu-items-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.menu-item-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  background: #fff;
+  border: 1px solid var(--light-border-color);
+  border-radius: 10px;
+  padding: 16px 20px;
+  transition: box-shadow 0.2s;
+}
+
+.menu-item-card:hover {
+  box-shadow: 0 4px 16px rgba(193,120,76,0.1);
+}
+
+.menu-item-info h3 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--dark-text-color);
+  margin-bottom: 4px;
+}
+
+.menu-item-info p {
+  font-size: 0.825rem;
+  color: var(--gray-text-color);
+}
+
+.menu-item-price {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.menu-order-cta {
+  background-color: var(--dark-background-color);
+  padding: 60px 0;
+  text-align: center;
+}
+
+.order-cta-inner h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.order-cta-inner p {
+  color: rgba(255,255,255,0.7);
+  margin-bottom: 24px;
+}
+
+@media (max-width: 700px) {
+  .menu-items-grid {
+    grid-template-columns: 1fr;
+  }
+}

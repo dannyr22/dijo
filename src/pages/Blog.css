@@ -1,0 +1,25 @@
+.blog-section {
+  padding: 80px 0;
+  background-color: var(--light-background-color);
+}
+
+.blog-empty {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.blog-empty-icon {
+  font-size: 3rem;
+  margin-bottom: 16px;
+}
+
+.blog-empty h2 {
+  font-size: 1.5rem;
+  color: var(--dark-text-color);
+  margin-bottom: 8px;
+}
+
+.blog-empty p {
+  color: var(--gray-text-color);
+  font-size: 1rem;
+}
