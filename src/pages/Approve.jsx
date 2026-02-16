@@ -40,14 +40,15 @@ export default function Approve() {
 
           <div className="approve-section">
             <h2>Pre-Launch Adjustments</h2>
-            <p>Prior to launch, I'm happy to finalise:</p>
+            <p>After subscribing, we'll work together to get everything just right before going live:</p>
             <ul>
-              <li>Copy refinements</li>
-              <li>Light branding adjustments</li>
-              <li>Layout polishing</li>
+              <li>Content updates — add, remove or refine text and images</li>
+              <li>Design tweaks — colours, layout and branding to match your vision</li>
+              <li>Domain name — agree and set up your preferred domain</li>
+              <li>Link webpage contact form to desired email address</li>
             </ul>
             <p className="approve-note">
-              Once approved, I will manually connect the live domain and confirm when the website is fully active.
+              This is an iterative process — we'll go back and forth until you're happy. Once finalised, I'll connect the live domain and confirm when the site is active.
             </p>
           </div>
 
@@ -75,7 +76,8 @@ export default function Approve() {
             <h2>Billing & Continuity</h2>
             <ul>
               <li>£30 per month (recurring)</li>
-              <li>Hosting and domain included</li>
+              <li>Hosting included</li>
+              <li>Domain setup (£30 limit)</li>
               <li>No long-term contract</li>
             </ul>
             <p className="approve-note">
@@ -89,10 +91,7 @@ export default function Approve() {
           <div className="approve-section approve-final">
             <h2>Approval</h2>
             <p>
-              When you're ready to proceed, approval below will activate hosting and ongoing support for Dijo.
-            </p>
-            <p style={{ marginTop: '8px' }}>
-              If you would like any final refinements before launch, please let me know prior to subscribing.
+              Ready to get started? Subscribe below and we'll begin shaping the site together.
             </p>
           </div>
         </div>
