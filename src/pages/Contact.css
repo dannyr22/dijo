@@ -67,9 +67,9 @@
 
 /* Form */
 .contact-form-col {
-  background: #fff;
+  background: var(--light-text-color);
   border: 1px solid var(--light-border-color);
-  border-radius: 16px;
+  border-radius: 12px;
   padding: 36px;
 }
 
@@ -104,18 +104,19 @@
   color: var(--dark-text-color);
   background: var(--light-background-color);
   outline: none;
-  transition: border-color 0.2s;
+  transition: border-color 0.2s, box-shadow 0.2s;
   resize: vertical;
 }
 
 .form-group input:focus,
 .form-group textarea:focus {
   border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px rgba(193,120,76,0.15);
 }
 
 .contact-submit {
   width: 100%;
-  padding: 12px;
+  padding: var(--button-padding-y) var(--button-padding-x);
   font-size: 1rem;
   margin-top: 4px;
 }

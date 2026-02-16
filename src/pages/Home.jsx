@@ -167,7 +167,7 @@ export default function Home() {
             <h2 className="section-heading">Follow Us on Instagram</h2>
             <p className="section-subheading">See what we're up to - fresh bakes, coffee art, and Portuguese delights!</p>
           </div>
-          <div className="elfsight-app-6059298a-774f-448c-9583-c8950c9939ef" data-elfsight-app-lazy></div>
+          <div className="elfsight-app-3c020d93-6a88-48f9-ab68-fe2ab0aecf6d" data-elfsight-app-lazy></div>
           <div className="ig-cta">
             <a href="https://www.instagram.com/dijodorking/" target="_blank" rel="noopener noreferrer" className="btn-primary">
               Follow @dijodorking
@@ -190,8 +190,10 @@ export default function Home() {
             <div className="info-card">
               <div className="info-icon">🕐</div>
               <h4>Hours</h4>
-              <p>Monday to Sunday</p>
-              <p>7:00 AM – 10:00 PM</p>
+              <p>Mon–Wed: 7am–3pm</p>
+              <p>Thu–Fri: 7am–5pm</p>
+              <p>Sat: 9am–3pm</p>
+              <p>Sun: Closed</p>
             </div>
             <div className="info-card">
               <div className="info-icon">📞</div>

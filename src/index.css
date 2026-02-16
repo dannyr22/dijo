@@ -47,7 +47,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Playfair Display', serif;
   margin: 0;
   line-height: 1.2;
 }
@@ -77,13 +77,14 @@ img {
   font-size: 0.9rem;
   font-weight: 600;
   cursor: pointer;
-  transition: background-color 0.2s ease;
+  transition: background-color 0.2s ease, transform 0.2s ease;
   text-decoration: none;
 }
 
 .btn-primary:hover {
   background-color: var(--primary-button-hover-bg-color);
   color: var(--primary-button-hover-text-color);
+  transform: translateY(-1px);
 }
 
 .btn-secondary {
@@ -97,13 +98,14 @@ img {
   font-size: 0.9rem;
   font-weight: 600;
   cursor: pointer;
-  transition: background-color 0.2s ease;
+  transition: background-color 0.2s ease, transform 0.2s ease;
   text-decoration: none;
 }
 
 .btn-secondary:hover {
   background-color: var(--secondary-button-hover-bg-color);
   color: var(--secondary-button-hover-text-color);
+  transform: translateY(-1px);
 }
 
 .btn-outline-light {
@@ -117,12 +119,13 @@ img {
   font-size: 0.9rem;
   font-weight: 600;
   cursor: pointer;
-  transition: background-color 0.2s ease, color 0.2s ease;
+  transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
   text-decoration: none;
 }
 
 .btn-outline-light:hover {
   background-color: rgba(255,255,255,0.15);
+  transform: translateY(-1px);
 }
 
 .section-badge {
@@ -146,7 +149,7 @@ img {
 }
 
 .section-heading {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Playfair Display', serif;
   font-size: 2rem;
   font-weight: 700;
   color: var(--dark-text-color);

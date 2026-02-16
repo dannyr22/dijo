@@ -25,6 +25,7 @@
   font-weight: 800;
   color: #fff;
   margin-bottom: 8px;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.3);
 }
 
 .page-hero-content p {
@@ -75,15 +76,16 @@
   justify-content: space-between;
   align-items: flex-start;
   gap: 16px;
-  background: #fff;
+  background: var(--light-text-color);
   border: 1px solid var(--light-border-color);
-  border-radius: 10px;
+  border-radius: 12px;
   padding: 16px 20px;
-  transition: box-shadow 0.2s;
+  transition: box-shadow 0.2s, transform 0.2s;
 }
 
 .menu-item-card:hover {
-  box-shadow: 0 4px 16px rgba(193,120,76,0.1);
+  box-shadow: 0 8px 24px rgba(193,120,76,0.15);
+  transform: translateY(-2px);
 }
 
 .menu-item-info h3 {

@@ -1,14 +1,12 @@
 import { Link } from 'react-router-dom';
 import './Footer.css';
 
-const LOGO = 'https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/e9eff87f-d024-4e63-004c-be986a483400/public';
-
 export default function Footer() {
   return (
     <footer className="footer">
       <div className="container footer-inner">
         <div className="footer-brand">
-          <img src={LOGO} alt="Dijo" className="footer-logo" />
+          <span className="footer-logo-text">Dijo</span>
           <p className="footer-tagline">
             Authentic flavors of Portugal in every moment. Artisan coffee, fresh food and an unforgettable experience.
           </p>

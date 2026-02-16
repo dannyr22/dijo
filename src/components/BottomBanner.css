@@ -27,8 +27,8 @@
   font-family: 'Poppins', sans-serif;
   font-size: 0.9rem;
   font-weight: 600;
-  padding: 8px 22px;
-  border-radius: 6px;
+  padding: var(--button-padding-y) var(--button-padding-x);
+  border-radius: var(--button-rounded-radius);
   text-decoration: none;
   transition: background-color 0.2s;
   white-space: nowrap;

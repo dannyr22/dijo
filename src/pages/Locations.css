@@ -17,10 +17,16 @@
 }
 
 .location-card {
-  background: #fff;
+  background: var(--light-text-color);
   border: 1px solid var(--light-border-color);
   border-radius: 12px;
   padding: 24px;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.location-card:hover {
+  box-shadow: 0 8px 24px rgba(193,120,76,0.15);
+  transform: translateY(-2px);
 }
 
 .location-card-icon {
@@ -72,7 +78,7 @@
 }
 
 .hours-time.closed {
-  color: #e05555;
+  color: #D94444;
   font-weight: 600;
 }
 
@@ -102,6 +108,12 @@
   width: 100%;
   height: 280px;
   object-fit: cover;
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.location-img-wrap:hover img {
+  transform: scale(1.03);
+  filter: brightness(1.06);
 }
 
 @media (max-width: 900px) {

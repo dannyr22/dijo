@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import './Navbar.css';
 
-const LOGO = 'https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/e9eff87f-d024-4e63-004c-be986a483400/public';
+const LOGO = '/dijo-logo.png';
 
 const navLinks = [
   { label: 'Home', to: '/' },
@@ -22,6 +22,7 @@ export default function Navbar() {
       <div className="navbar-inner container">
         <Link to="/" className="navbar-logo">
           <img src={LOGO} alt="Dijo logo" />
+          <span className="navbar-logo-text">Dijo</span>
         </Link>
 
         <button className="navbar-toggle" onClick={() => setOpen(!open)} aria-label="Toggle menu">
