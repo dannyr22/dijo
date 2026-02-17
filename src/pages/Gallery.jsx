@@ -18,7 +18,7 @@ export default function Gallery() {
       {/* Instagram feed */}
       <section className="gallery-instagram">
         <div className="container">
-          <div className="elfsight-app-a645420c-ac02-4c69-9690-5f665301d216" data-elfsight-app-lazy></div>
+          <div className="elfsight-app-b463a038-5322-43f2-bce9-ec0588c72084" data-elfsight-app-lazy></div>
         </div>
       </section>
     </div>

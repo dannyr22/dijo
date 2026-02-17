@@ -167,7 +167,7 @@ export default function Home() {
             <h2 className="section-heading">Follow Us on Instagram</h2>
             <p className="section-subheading">See what we're up to - fresh bakes, coffee art, and Portuguese delights!</p>
           </div>
-          <div className="elfsight-app-3c020d93-6a88-48f9-ab68-fe2ab0aecf6d" data-elfsight-app-lazy></div>
+          <div className="elfsight-app-b463a038-5322-43f2-bce9-ec0588c72084" data-elfsight-app-lazy></div>
           <div className="ig-cta">
             <a href="https://www.instagram.com/dijodorking/" target="_blank" rel="noopener noreferrer" className="btn-primary">
               Follow @dijodorking
